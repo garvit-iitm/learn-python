@@ -1,13 +1,9 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-    {}
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'style.css' %}">
-</head>
-<body>
-    <h1>welcome to about page</h1>
-</body>
-</html>
+{% extends "layout.html" %}
+
+{% block header %}
+    <title>About Page</title>
+{% endblock header %}
+
+{% block content %}
+    <h1 class = "bg-red-500 text-5xl text-center max-w-min rounded-2xl">Welcome to the About Page</h1>
+{% endblock content %}

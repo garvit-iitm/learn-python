@@ -1,4 +1,5 @@
 {% load static %}
+{% load static tailwind_tags %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,5 +18,6 @@
     {% block content %}
         default content
     {% endblock %}
+    {% tailwind_css %}
 </body>
 </html>
