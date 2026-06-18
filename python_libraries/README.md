@@ -1,0 +1,2 @@
+# Python_Libraries
+A portfolio of projects demonstrating proficiency in key Python data science libraries: NumPy, Pandas, Matplotlib, and Scikit-learn. Includes one simple and one advanced project for each library to showcase a range of skills from data manipulation to machine learning .
